@@ -62,7 +62,6 @@ require('dotenv').config();
       res.redirect('/404')
     })
   })
-
   app.get('/relatos/:id', (req,res)=>{
     Relatos.findOne({_id: req.params.id}).lean().then((relatos)=>{
       if(relatos){
