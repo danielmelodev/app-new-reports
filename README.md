@@ -10,27 +10,31 @@ possibilitando a abertura de relatos em qualquer lugar, otimizando tempo e cuida
 ## Como rodar nosso app no seu dispositivo?
 
 ### 1º passo
+Fazer o clone do repositório atual, por meio do comando. 
   ~~~
-  Fazer o clone do repositório atual, por meio do comando 'git clone https://github.com/danielmelodev/app-new-reports.git'.
+  git clone https://github.com/danielmelodev/app-new-reports.git
   ~~~
 ### 2º passo
+No seu VS code, após clonar o repositório, executar o comando no seu terminal.
   ~~~
-  No seu VS code, após clonar o repositório, executar o comando 'npm install' no seu terminal.
+   npm install
   ~~~
 ### 3º passo
+Ainda no seu terminal executar o comando.
   ~~~
-  Ainda no terminar executar o comando npm start.
+   npm start
   ~~~
 ### 4º passo
-  ~~~
   Verificar se exibe a mensagem: 
+  ~~~
   'Server is running in port 8080'
   'Banco de dados conectado! ac-e0uog55-shard-00-00.luseugn.mongodb.net.'
   ~~~
  
  ### 5º passo
+ Após os passos anteriores, abrir o navegador e colar este link.
   ~~~
-  Após os passos anteriores, abrir o navegador e digitar 'http://localhost:8080'.
+   http://localhost:8080
   ~~~
   
  ### Agora você terá acesso ao seu app de relatos.
